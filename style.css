@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif}
+  
+  nav {
+    background-color: #121313;
+    color:  #f7e0a2;
+    padding: 15px;
+    border: 2px solid #f7e0a2;
+  }
+  
+  .navbar {
+    display: flex;
+    color:  #f7e0a2;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-style: italic;
+    color:  #333230;
+  }
+  
+  .greeting {
+    font-size: 25px;
+    text-align: center;
+    color:  #333230;
+  }
+  
+  .datetime {
+    text-align: right;
+  }
+  
+  .carausel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .carausel-item {
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .carausel-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .card {
+    width: 30%;
+    background-color:#f7e0a1;
+    border: 2px solid #f7e0a2;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 11px;
+    color:  #333230;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  footer {
+    font-size: 10px;
+    text-align: center;
+    
+  }
